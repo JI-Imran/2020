@@ -23,6 +23,7 @@ ul {
 
 .hero-wrapper {
   background: url(nature.jpg);
+  background: linear-gradient(to right, rgba(44, 5, 5, 0.0470588235), rgba(129, 11, 11, 0));
   background-size: cover;
 }
 
