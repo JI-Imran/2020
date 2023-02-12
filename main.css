@@ -15,21 +15,28 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.hero-wrapper {
+.hero-wrapper-wrapper {
   background: url(nature.jpg);
-  background: linear-gradient(to right, rgba(44, 5, 5, 0.0470588235), rgba(129, 11, 11, 0));
   background-size: cover;
+}
+
+.hero-wrapper {
+  background: linear-gradient(to bottom, #2B192F, rgba(129, 11, 11, 0.041));
 }
 
 .wrapper {
   padding: 1.5em;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
